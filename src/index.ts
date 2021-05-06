@@ -4,7 +4,7 @@ import { BASEBALL_TEAMS } from "./type"
 
 
 
-console.log("-------------------")
+console.log("-------------------------------------------------------------------------------")
 
 const baseballTeams: BaseBallTeam[] = []
 
@@ -17,13 +17,13 @@ baseballTeams.forEach(team => {
   team.hello()
 })
 
-const tigers = baseballTeams[0]
-tigers.hello()
+/*
+const gs = baseballTeams[0]
+gs.hello()
 
-const Ichiro = new Player('イチロー', 10000000000, 'Fielder')
+const ts = baseballTeams[1]
+ts.hello()
 
-// const giants = new BaseBallTeam(BASEBALL_TEAMS[0])
-// giants.hello();
-
-// const ティガース = new BaseBallTeam("ティガース")
-// ティガース.hello();
+const Ichiro = new Player('イチロー', 4, 'Fielder')
+const Darvish = new Player('ダルビッシュ', 9999, 'Pitcher')
+*/
