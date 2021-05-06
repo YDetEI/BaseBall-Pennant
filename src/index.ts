@@ -24,6 +24,6 @@ gs.hello()
 const ts = baseballTeams[1]
 ts.hello()
 
-const Ichiro = new Player('イチロー', 4, 'Fielder')
-const Darvish = new Player('ダルビッシュ', 9999, 'Pitcher')
+const Ichiro = new Player('イチロー', 4, 'RF')
+const Darvish = new Player('ダルビッシュ', 9999, 'P')
 */
