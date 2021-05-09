@@ -2,21 +2,13 @@ import { Player } from "./Player.model"
 
 
 const playerList2: Player[] = [
-  { name: 'だるびっしゅ',
-    ability: 9999,
-    playerType: 'Pitcher',
-    affiliation: 'Gs'
-  },
-  { name: 'じろう',
-    ability: 99,
-    playerType: 'Pitcher',
-    affiliation: 'Gs'
-  },
-  { name: 'さぶろう',
-    ability: 99,
-    playerType: 'Pitcher',
-    affiliation: 'Gs'
+  
+  { name: 'Darvish',
+  ability: 9999,
+  playerType: 'Pitcher',
+  affiliation: 'Gs'
   }
+
 ]
 
 
