@@ -3,11 +3,13 @@ import { Player } from "./Player.model"
 
 const playerList2: Player[] = [
   
+  /*
   { name: 'Darvish',
   ability: 9999,
   playerType: 'Pitcher',
   affiliation: 'Gs'
   }
+  */
 
 ]
 
