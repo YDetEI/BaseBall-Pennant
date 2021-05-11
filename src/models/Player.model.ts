@@ -5,7 +5,6 @@ export class Player {
   public ability: number  
   public playerType: PlayerType
   public affiliation: BaseballTeam
-  
 
   constructor(name: string, ability: number, playerType: PlayerType, affiliation: BaseballTeam){
     this.name = name
