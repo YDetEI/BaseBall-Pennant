@@ -9,9 +9,10 @@ type game ={
      this.baseBallTeam2 = BaseBallTeam
    }
 
-   judge(
-     
-   )
+   judge(){
+       console.log(BaseBallTeam.Player.Catcher.Ability + )
+
+   }
 }
 
 
