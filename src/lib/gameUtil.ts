@@ -1,6 +1,6 @@
 import { BaseBallTeam } from "../models/BaseBallTeam.model";
 
-type game ={
+export class game {
    baseBallTeam1: BaseBallTeam
    baseBallTeam2: BaseBallTeam
 
@@ -10,7 +10,7 @@ type game ={
    }
 
    judge(){
-       console.log(BaseBallTeam.Player.Catcher.Ability + )
+       console.log(BaseBallTeam.Player.Catcher.Ability + BaseBallTeam.Player.First.Ability)
 
    }
 }
