@@ -9,12 +9,14 @@ export class game {
      this.baseBallTeam2 = BaseBallTeam
    }
 
+
+
    judge(){
        console.log(
          (
          BaseBallTeam.Player.Catcher.Ability + BaseBallTeam.Player.First.Ability + BaseBallTeam.Player.Second.Ability + 
          BaseBallTeam.Player.Third.Ability+ BaseBallTeam.Player.Short.Ability + BaseBallTeam.Player.Left.Ability +　
-         BaseBallTeam.Player.Center.Ability+ BaseBallTeam.Player.Right.Ability + BaseBallTeam.Player.DH.Ability）*
+         BaseBallTeam.Player.Center.Ability+ BaseBallTeam.Player.Right.Ability + BaseBallTeam.Player.DH.Ability）+
 
         ( function getRandom(0.9, 1.1) {
           return Math.random() * (1.1 - 0.9) + 0.9;
