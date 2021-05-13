@@ -18,6 +18,12 @@ export class game {
          BaseBallTeam.Player.Third.Ability+ BaseBallTeam.Player.Short.Ability + BaseBallTeam.Player.Left.Ability +　
          BaseBallTeam.Player.Center.Ability+ BaseBallTeam.Player.Right.Ability + BaseBallTeam.Player.DH.Ability）+
 
+
+
+         //Pitcher5人からランダムで１人選び、そのAbilityを抽出
+
+
+　　　　　＊
         ( function getRandom(0.9, 1.1) {
           return Math.random() * (1.1 - 0.9) + 0.9;
         })
