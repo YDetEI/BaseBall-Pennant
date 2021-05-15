@@ -21,6 +21,11 @@ export class game {
 
 
          //Pitcher5人からランダムで１人選び、そのAbilityを抽出
+         /*
+         var items = ['リンゴ', 'イチゴ', 'メロン', 'バナナ'];
+         var random = Math.floor( Math.random() * items.length );
+         console.log( items[random] );
+         */
 
 
 　　　　　＊
