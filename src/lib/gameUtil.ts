@@ -9,6 +9,11 @@ export class game {
      this.baseBallTeam2 = BaseBallTeam
    }
 
+   /*
+   ①野手９人のAbilityを抽出し、全て足す
+   ②Pitcher5人からランダムで１人選び、そのAbilityを抽出し、①に足す
+   ③　②に乱数（０.9〜１.１）をかける
+   */
 
 
    judge(){
@@ -20,9 +25,9 @@ export class game {
 
 
 
-         //Pitcher5人からランダムで１人選び、そのAbilityを抽出
+         
          /*
-         var items = ['リンゴ', 'イチゴ', 'メロン', 'バナナ'];
+         var items = ['', '', '', '', ''];
          var random = Math.floor( Math.random() * items.length );
          console.log( items[random] );
          */
