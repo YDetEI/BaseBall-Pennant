@@ -45,7 +45,7 @@ const playerList: Player[] = [
 ]
 
 const Gs = new BaseBallTeam('Gs', playerList)
-Gs.hello()
+//Gs.hello()
 
 
 // const Darvish = new Player('ダルビッシュ', 9999, 'Pitcher', 'Gs')
