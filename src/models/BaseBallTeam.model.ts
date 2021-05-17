@@ -10,5 +10,5 @@ export class BaseBallTeam {
     //BaseBallTeamをインスタンス化するときに、Playerも同時にインスタンス化する処理
     //PlayerたちをPlayer.model.tsにあるクラスをインスタンス化して配列なりなんなりでこのBaseballインスタンスのプロパティにいれる処理
   }
-
+aaaa
 }
