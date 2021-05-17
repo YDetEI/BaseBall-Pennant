@@ -5,7 +5,51 @@ import { BASEBALL_TEAMS } from "./type"
 
 
 
+const list: number[] = [1, 2, 3]
+const books: string[] = ['教科書', '漫画']
+console.log(books)
+books.push('小説')
+console.log(books)
+
+// console.log(list)
+
 console.log("-------------------------------------------------------------------------------")
+
+
+class Human {
+  public gender:string
+  public JapaneseList: Japanese[] = []
+
+  constructor(gender: string, nameList: string[]){
+    this.gender = gender
+    nameList.forEach(name => {
+      const newJapanese = new Japanese(name)
+      this.JapaneseList.push(newJapanese)
+    })
+  }
+}
+
+class Japanese {
+  public name: string
+
+  constructor(name: string){
+    this.name = name
+  }
+
+  hello(){
+    console.log(`I am ${this.name}`)
+  }
+}
+
+const myFriends = ['こうちゃん', 'みっつ', 'MAX']
+const human = new Human('male', myFriends)
+console.log(human.JapaneseList)
+human.JapaneseList.forEach(japanese => japanese.hello())
+
+
+
+
+
 
 // const baseballTeams: BaseBallTeam[] = []
 
@@ -44,7 +88,7 @@ const playerList: Player[] = [
   }
 ]
 
-const Gs = new BaseBallTeam('Gs', playerList)
+// const Gs = new BaseBallTeam('Gs', playerList)
 //Gs.hello()
 
 
