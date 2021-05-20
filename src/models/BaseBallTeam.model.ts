@@ -1,3 +1,4 @@
+import { PlayerType } from "../type"
 import { Player } from "./Player.model"
 
 export class BaseBallTeam {
@@ -18,8 +19,13 @@ constructor(name: string, playerList: string[])
 {
   this.name = name
 
+
+  
+
   playerList.forEach(name => {
     const newPlayer = new Player(name, ability, playerType)
+
+    
     this.playerList.push(newPlayer)
   },
 
@@ -31,3 +37,19 @@ constructor(name: string, playerList: string[])
 
 
 }
+
+class GsPlayers {
+  public name: string
+  public ability: number
+  public playerType: PlayerType
+
+
+
+  constructor(name: string, ability: number, playerType: PlayerType){
+    this.name = name
+    this.ability = ability
+    this.playerType = playerType
+  }
+
+ const gsplayers = ['aくん']
+ const player = new this.layer('aくん', 100, 'Pitcher')
