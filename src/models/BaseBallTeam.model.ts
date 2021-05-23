@@ -34,10 +34,10 @@ constructor(name: string, playerList: string[])
   )
 }
 
-
-
 }
 
+
+/*
 class GsPlayers {
   public name: string
   public ability: number
@@ -52,4 +52,5 @@ class GsPlayers {
   }
 
  const gsplayers = ['aくん']
- const player = new this.layer('aくん', 100, 'Pitcher')
+ const player = new this.player('aくん', 100, 'Pitcher')}
+*/
