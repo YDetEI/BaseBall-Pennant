@@ -23,7 +23,7 @@ constructor(name: string, playerList: string[])
   
 
   playerList.forEach(name => {
-    const newPlayer = new Player(name, ability, playerType)
+    const newPlayer = new Player(name, 15, 'Pitcher')
 
     
     this.playerList.push(newPlayer)
