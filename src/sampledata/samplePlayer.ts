@@ -1,16 +1,24 @@
-import { Player } from "./Player.model"
+import { Player } from "../models/Player.model"
 import { PlayerType } from "../type"
 
 
-{ name: 'GsCatcher',
+export const samplePlayers: Player[] =[{ name: 'GsCatcher',
 ability: 70,
 playerType: 'Catcher'
-}
-
+},
 { name: 'GsFirst',
 ability: 70,
 playerType: 'First'
-}
+}]
+
+export const sampleYokohama: Player[] =[{ name: 'YokohamaCatcher',
+ability: 70,
+playerType: 'Catcher'
+},
+{ name: 'YokohamaFirst',
+ability: 70,
+playerType: 'First'
+}]
 
 
 

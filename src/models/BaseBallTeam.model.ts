@@ -1,3 +1,4 @@
+// import { samplePlayers } from "../sampledata/samplePlayer"
 import { PlayerType } from "../type"
 import { Player } from "./Player.model"
 
@@ -15,25 +16,13 @@ export class BaseBallTeam {
   }
 */
 
-constructor(name: string, playerList: string[])
-{
-  this.name = name
-
-
-  
-
-  playerList.forEach(name => {
-    const newPlayer = new Player(name, 15, 'Pitcher')
-
-    
-    this.playerList.push(newPlayer)
-  },
-
-  
-  
-  )
-}
-
+  constructor(name: string, playerList: Player[]) {
+    this.name = name
+    playerList.forEach(player => {
+      const newPlayer = new Player(player.name, player.ability, player.playerType)
+      this.playerList.push(newPlayer)
+    })
+  }
 }
 
 

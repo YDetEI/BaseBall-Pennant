@@ -1,12 +1,13 @@
 import { BaseBallTeam } from "../models/BaseBallTeam.model";
 
-export class game {
+export class Game {
   baseBallTeam1: BaseBallTeam
   baseBallTeam2: BaseBallTeam
 
   constructor(baseBallTeam1: BaseBallTeam, baseBallTeam2: BaseBallTeam){
     this.baseBallTeam1 = baseBallTeam1
     this.baseBallTeam2 = baseBallTeam2
+    console.log(this.baseBallTeam1.name + ' vs ' + this.baseBallTeam2.name + 'するよ')
   }
 
    /*
