@@ -1,3 +1,18 @@
+import { Player } from "./Player.model"
+import { PlayerType } from "../type"
+
+
+{ name: 'GsCatcher',
+ability: 70,
+playerType: 'Catcher'
+}
+
+{ name: 'GsFirst',
+ability: 70,
+playerType: 'First'
+}
+
+
 
 
 /*
