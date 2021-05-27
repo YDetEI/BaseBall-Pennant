@@ -1,8 +1,13 @@
 import { Game } from "./lib/gameUtil"
 import { BaseBallTeam } from "./models/BaseBallTeam.model"
 import { Player } from "./models/Player.model"
-import { samplePlayers, sampleYokohama } from "./sampledata/samplePlayer"
+import { sampleGs, sampleTs } from "./sampledata/samplePlayer"
 import { BASEBALL_TEAMS } from "./type"
+
+
+const Gs = new BaseBallTeam("Gs", sampleGs)
+const Ts = new BaseBallTeam("Ts", sampleTs)
+
 
 /*
 const Gs = new BaseBallTeam("Gs", samplePlayers)
