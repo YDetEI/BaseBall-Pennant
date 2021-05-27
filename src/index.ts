@@ -1,14 +1,17 @@
-import { Game } from "./lib/gameUtil"
-import { BaseBallTeam } from "./models/BaseBallTeam.model"
-import { Player } from "./models/Player.model"
-import { sampleGs, sampleTs } from "./sampledata/samplePlayer"
-import { BASEBALL_TEAMS } from "./type"
+import { Game } from './lib/gameUtil'
+import { BaseBallTeam } from './models/BaseBallTeam.model'
+import { Player } from './models/Player.model'
+import { sampleGs, sampleTs, sampleDs } from './sampledata/samplePlayer'
+import { BASEBALL_TEAMS } from './type'
 
+const Gs = new BaseBallTeam('Gs', sampleGs)
+const Ts = new BaseBallTeam('Ts', sampleTs)
+const Ds = new BaseBallTeam('Ds', sampleDs)
 
-const Gs = new BaseBallTeam("Gs", sampleGs)
-const Ts = new BaseBallTeam("Ts", sampleTs)
+const GsVsTs = new Game(Gs, Ts)
+const GsVsDs = new Game(Gs, Ds)
 
-
+GsVsTs.createArray4Judge()
 /*
 const Gs = new BaseBallTeam("Gs", samplePlayers)
 const Hanshin = new BaseBallTeam("Hanshin", samplePlayers)
