@@ -20,7 +20,7 @@ export class Game {
   public createArray4Judge(): number[] {
     const hoge = this.baseBallTeam1.playerList.filter
     console.log(hoge)
-    // const abilityList: number[] = [this.baseBallTeam1.playerList.player.ability]
+    const abilityList: number[] = [this.baseBallTeam1.playerList.player.ability]
 
     return [1, 2, 4]
   }
