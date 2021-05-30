@@ -1,3 +1,4 @@
+/*const get0ability = this.baseBallTeam1.playerList[0].ability*/
 import { BaseBallTeam } from '../models/BaseBallTeam.model'
 import { Player } from '../models/Player.model'
 
@@ -18,12 +19,32 @@ export class Game {
    ②Pitcher5人からランダムで１人選び、そのAbilityを抽出し、①の配列に入れる
    */
   public createArray4Judge(): number[] {
-    const hoge = this.baseBallTeam1.playerList.filter
-    console.log(hoge)
-    const abilityList: number[] = [this.baseBallTeam1.playerList.player.ability]
+    const getability1 = this.baseBallTeam1.playerList.map
+    if (this.baseBallTeam1.playerList[].playerType ===
+      'Catcher', 'First', 'Second', 'Third', 'Short', 'Left', 'Center', 'Right', 'DH')
+      return this.baseBallTeam1.playerList[].ability
+      else ;
+    }
+    /*
+    const get0ability: number[] = [this.baseBallTeam1.playerList[0].ability]
+    const get1ability: number[] = [this.baseBallTeam1.playerList[1].ability]
+    const get2ability: number[] = [this.baseBallTeam1.playerList[2].ability]
+    const get3ability: number[] = [this.baseBallTeam1.playerList[3].ability]
+    const get4ability: number[] = [this.baseBallTeam1.playerList[4].ability]
+    const get5ability: number[] = [this.baseBallTeam1.playerList[5].ability]
+    const get6ability: number[] = [this.baseBallTeam1.playerList[6].ability]
+    const get7ability: number[] = [this.baseBallTeam1.playerList[7].ability]
+    const get8ability: number[] = [this.baseBallTeam1.playerList[8].ability]
 
-    return [1, 2, 4]
-  }
+    console.log(
+      this.baseBallTeam1.playerList[0].ability +
+        this.baseBallTeam1.playerList[1].ability
+    )
+    const map1 = array1.map(x => x * 2);
+
+console.log(map1);
+*/
+
 
   /*
    ③配列の中身をすべて足す
