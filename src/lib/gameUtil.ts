@@ -21,11 +21,20 @@ export class Game {
    */
   // public createArray4Judge(): number[] {
   public createArray4Judge() {
-    const getAbility1 = this.baseBallTeam1.playerList
+    const getFielderAbility = this.baseBallTeam1.playerList
       .filter((player) => player.playerType !== 'Pitcher')
       .map((player) => player.ability)
 
-    console.log(getAbility1)
+    const getPitcherAbility = this.baseBallTeam1.playerList
+      .filter((player) => player.playerType === 'Pitcher')
+      .map((player) => player.ability)
+
+    const chooseRandomPitcherAbility =
+      getPitcherAbility[Math.floor(Math.random() * getPitcherAbility.length)]
+
+    console.log(getFielderAbility)
+    console.log(getPitcherAbility)
+    console.log(chooseRandomPitcherAbility)
   }
 
   //if gusu return
