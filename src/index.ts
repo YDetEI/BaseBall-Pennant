@@ -11,7 +11,10 @@ const Ds = new BaseBallTeam('Ds', sampleDs)
 const GsVsTs = new Game(Gs, Ts)
 const GsVsDs = new Game(Gs, Ds)
 
-GsVsTs.createArray4Judge()
+//for test
+const team1 = GsVsTs.baseBallTeam1
+const team2 = GsVsTs.baseBallTeam2
+const result = GsVsTs.calculateAbility(team1)
 /*
 const Gs = new BaseBallTeam("Gs", samplePlayers)
 const Hanshin = new BaseBallTeam("Hanshin", samplePlayers)
