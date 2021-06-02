@@ -52,6 +52,8 @@ export class Game {
   /*
   ③配列の中身をすべて足す
   ④足した数に乱数（０.9〜１.１）をかける
+
+
   */
   public judge() {}
 }
