@@ -15,10 +15,6 @@ export class Game {
     )
   }
 
-  /*
-   ①野手９人のAbilityを抽出し、一回配列に入れる
-   ②Pitcher5人からランダムで１人選び、そのAbilityを抽出し、①の配列に入れる
-   */
   public calculateAbility(BaseBallTeam: BaseBallTeam): number {
     const fielderAbility = BaseBallTeam.playerList
       .filter((player) => player.playerType !== 'Pitcher')
@@ -49,11 +45,5 @@ export class Game {
     return multipleRandom
   }
 
-  /*
-  ③配列の中身をすべて足す
-  ④足した数に乱数（０.9〜１.１）をかける
-
-
-  */
   public judge() {}
 }
