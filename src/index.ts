@@ -14,7 +14,9 @@ const GsVsDs = new Game(Gs, Ds)
 //for test
 const team1 = GsVsTs.baseBallTeam1
 const team2 = GsVsTs.baseBallTeam2
-const result = GsVsTs.calculateAbility(team1)
+const result1 = GsVsTs.calculateAbility(team1)
+const result2 = GsVsTs.calculateAbility(team2)
+
 /*
 const Gs = new BaseBallTeam("Gs", samplePlayers)
 const Hanshin = new BaseBallTeam("Hanshin", samplePlayers)

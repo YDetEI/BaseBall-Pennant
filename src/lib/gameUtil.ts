@@ -45,5 +45,19 @@ export class Game {
     return multipleRandom
   }
 
-  public judge() {}
+  public judge() {
+    const battle =
+    if (result1 > result2){
+      console.log(
+        this.baseBallTeam1.name + 'の勝利！'
+        this.baseBallTeam2.name + 'の敗北！'
+        )
+    }
+    else {
+
+  }
+  }
 }
+
+
+
