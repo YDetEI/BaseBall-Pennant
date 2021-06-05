@@ -35,6 +35,8 @@ export class Game {
     const randomNumber = (Math.floor(Math.random() * 20) + 90) / 100
     const multipleRandom = sumPlayerAbility * randomNumber
 
+    import { result1 } from '../lib/index.ts'
+
     // console.log(fielderAbility)
     // console.log(pitcherAbility)
     // console.log(randomPitcherAbility)
@@ -46,18 +48,14 @@ export class Game {
   }
 
   public judge() {
-    const battle =
-    if (result1 > result2){
-      console.log(
-        this.baseBallTeam1.name + 'の勝利！'
-        this.baseBallTeam2.name + 'の敗北！'
-        )
-    }
-    else {
-
-  }
+    //   const battle =
+    //   if (result1 > result2){
+    //     console.log(
+    //       this.baseBallTeam1.name + 'の勝利！'
+    //       this.baseBallTeam2.name + 'の敗北！'
+    //       )
+    //   }
+    //   else {
+    // }
   }
 }
-
-
-
