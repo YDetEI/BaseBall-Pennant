@@ -2,7 +2,7 @@ import { Game } from './lib/gameUtil'
 import { BaseBallTeam } from './models/BaseBallTeam.model'
 import { Player } from './models/Player.model'
 import { sampleGs, sampleTs, sampleDs } from './sampledata/samplePlayer'
-import { AbilityResult, BASEBALL_TEAMS } from './type'
+//import { AbilityResult, BASEBALL_TEAMS } from './type'
 
 const Gs = new BaseBallTeam('Gs', sampleGs)
 const Ts = new BaseBallTeam('Ts', sampleTs)
@@ -11,6 +11,7 @@ const Ds = new BaseBallTeam('Ds', sampleDs)
 const GsVsTs = new Game(Gs, Ts).judge()
 const GsVsDs = new Game(Gs, Ds).judge()
 
+/*
 const GsResult: AbilityResult = { teamName: 'Gs', result: 438 }
 console.log(GsResult.result)
 console.log(GsResult.teamName)

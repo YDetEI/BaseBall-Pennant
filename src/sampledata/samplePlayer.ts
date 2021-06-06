@@ -1,6 +1,5 @@
-import { Player } from "../models/Player.model"
-import { PlayerType } from "../type"
-
+import { Player } from '../models/Player.model'
+import { PlayerType } from '../type'
 
 export const sampleGs: Player[] = [
   { name: 'GsCatcher', ability: 70, playerType: 'Catcher' },
@@ -52,73 +51,191 @@ export const sampleDs: Player[] = [
   { name: 'DsPitcher4', ability: 68, playerType: 'Pitcher' },
   { name: 'DsPitcher5', ability: 66, playerType: 'Pitcher' },
 ]
-/*
-export const sample: Player[] =[
 
-  { name: 'sCatcher',
-ability: 70,
-playerType: 'Catcher'},
-{ name: 'sFirst',
-ability: 70,
-playerType: 'First'
-},
-{ name: 'sSecond',
-ability: 70,
-playerType: 'Second'
-},
-{ name: 'sThird',
-ability: 70,
-playerType: 'Third'
-},
-{ name: 'sShort',
-ability: 70,
-playerType: 'Short'
-},
-{ name: 'sLeft',
-ability: 70,
-playerType: 'Left'
-},
-{ name: 'sCenter',
-ability: 70,
-playerType: 'Center'
-},
-{ name: 'sRight',
-ability: 70,
-playerType: 'Right'
-},
-{ name: 'sDH',
-ability: 70,
-playerType: 'DH'
-},
-{ name: 'sPitcher1',
-ability: 74,
-playerType: 'Pitcher'
-},
-{ name: 'sPitcher2',
-ability: 72,
-playerType: 'Pitcher'
-},
-{ name: 'sPitcher3',
-ability: 70,
-playerType: 'Pitcher'
-},
-{ name: 'sPitcher4',
-ability: 68,
-playerType: 'Pitcher'
-},
-{ name: 'sPitcher5',
-ability: 66,
-playerType: 'Pitcher'
-}
-
+export const sampleSs: Player[] = [
+  { name: 'SsCatcher', ability: 70, playerType: 'Catcher' },
+  { name: 'SsFirst', ability: 70, playerType: 'First' },
+  { name: 'SsSecond', ability: 70, playerType: 'Second' },
+  { name: 'SsThird', ability: 70, playerType: 'Third' },
+  { name: 'SsShort', ability: 70, playerType: 'Short' },
+  { name: 'SsLeft', ability: 70, playerType: 'Left' },
+  { name: 'SsCenter', ability: 70, playerType: 'Center' },
+  { name: 'SsRight', ability: 70, playerType: 'Right' },
+  { name: 'SsDH', ability: 70, playerType: 'DH' },
+  { name: 'SsPitcher1', ability: 74, playerType: 'Pitcher' },
+  { name: 'SsPitcher2', ability: 72, playerType: 'Pitcher' },
+  { name: 'SsPitcher3', ability: 70, playerType: 'Pitcher' },
+  { name: 'SsPitcher4', ability: 68, playerType: 'Pitcher' },
+  { name: 'SsPitcher5', ability: 66, playerType: 'Pitcher' },
 ]
+
+export const sampleBs: Player[] = [
+  { name: 'BsCatcher', ability: 70, playerType: 'Catcher' },
+  { name: 'BsFirst', ability: 70, playerType: 'First' },
+  { name: 'BsSecond', ability: 70, playerType: 'Second' },
+  { name: 'BsThird', ability: 70, playerType: 'Third' },
+  { name: 'BsShort', ability: 70, playerType: 'Short' },
+  { name: 'BsLeft', ability: 70, playerType: 'Left' },
+  { name: 'BsCenter', ability: 70, playerType: 'Center' },
+  { name: 'BsRight', ability: 70, playerType: 'Right' },
+  { name: 'BsDH', ability: 70, playerType: 'DH' },
+  { name: 'BsPitcher1', ability: 74, playerType: 'Pitcher' },
+  { name: 'BsPitcher2', ability: 72, playerType: 'Pitcher' },
+  { name: 'BsPitcher3', ability: 70, playerType: 'Pitcher' },
+  { name: 'BsPitcher4', ability: 68, playerType: 'Pitcher' },
+  { name: 'BsPitcher5', ability: 66, playerType: 'Pitcher' },
+]
+
+export const sampleCs: Player[] = [
+  { name: 'CsCatcher', ability: 70, playerType: 'Catcher' },
+  { name: 'CsFirst', ability: 70, playerType: 'First' },
+  { name: 'CsSecond', ability: 70, playerType: 'Second' },
+  { name: 'CsThird', ability: 70, playerType: 'Third' },
+  { name: 'CsShort', ability: 70, playerType: 'Short' },
+  { name: 'CsLeft', ability: 70, playerType: 'Left' },
+  { name: 'CsCenter', ability: 70, playerType: 'Center' },
+  { name: 'CsRight', ability: 70, playerType: 'Right' },
+  { name: 'CsDH', ability: 70, playerType: 'DH' },
+  { name: 'CsPitcher1', ability: 74, playerType: 'Pitcher' },
+  { name: 'CsPitcher2', ability: 72, playerType: 'Pitcher' },
+  { name: 'CsPitcher3', ability: 70, playerType: 'Pitcher' },
+  { name: 'CsPitcher4', ability: 68, playerType: 'Pitcher' },
+  { name: 'CsPitcher5', ability: 66, playerType: 'Pitcher' },
+]
+
+export const sampleFs: Player[] = [
+  { name: 'FsCatcher', ability: 70, playerType: 'Catcher' },
+  { name: 'FsFirst', ability: 70, playerType: 'First' },
+  { name: 'FsSecond', ability: 70, playerType: 'Second' },
+  { name: 'FsThird', ability: 70, playerType: 'Third' },
+  { name: 'FsShort', ability: 70, playerType: 'Short' },
+  { name: 'FsLeft', ability: 70, playerType: 'Left' },
+  { name: 'FsCenter', ability: 70, playerType: 'Center' },
+  { name: 'FsRight', ability: 70, playerType: 'Right' },
+  { name: 'FsDH', ability: 70, playerType: 'DH' },
+  { name: 'FsPitcher1', ability: 74, playerType: 'Pitcher' },
+  { name: 'FsPitcher2', ability: 72, playerType: 'Pitcher' },
+  { name: 'FsPitcher3', ability: 70, playerType: 'Pitcher' },
+  { name: 'FsPitcher4', ability: 68, playerType: 'Pitcher' },
+  { name: 'FsPitcher5', ability: 66, playerType: 'Pitcher' },
+]
+
+export const sampleHs: Player[] = [
+  { name: 'HsCatcher', ability: 70, playerType: 'Catcher' },
+  { name: 'HsFirst', ability: 70, playerType: 'First' },
+  { name: 'HsSecond', ability: 70, playerType: 'Second' },
+  { name: 'HsThird', ability: 70, playerType: 'Third' },
+  { name: 'HsShort', ability: 70, playerType: 'Short' },
+  { name: 'HsLeft', ability: 70, playerType: 'Left' },
+  { name: 'HsCenter', ability: 70, playerType: 'Center' },
+  { name: 'HsRight', ability: 70, playerType: 'Right' },
+  { name: 'HsDH', ability: 70, playerType: 'DH' },
+  { name: 'HsPitcher1', ability: 74, playerType: 'Pitcher' },
+  { name: 'HsPitcher2', ability: 72, playerType: 'Pitcher' },
+  { name: 'HsPitcher3', ability: 70, playerType: 'Pitcher' },
+  { name: 'HsPitcher4', ability: 68, playerType: 'Pitcher' },
+  { name: 'HsPitcher5', ability: 66, playerType: 'Pitcher' },
+]
+
+export const sampleEs: Player[] = [
+  { name: 'EsCatcher', ability: 70, playerType: 'Catcher' },
+  { name: 'EsFirst', ability: 70, playerType: 'First' },
+  { name: 'EsSecond', ability: 70, playerType: 'Second' },
+  { name: 'EsThird', ability: 70, playerType: 'Third' },
+  { name: 'EsShort', ability: 70, playerType: 'Short' },
+  { name: 'EsLeft', ability: 70, playerType: 'Left' },
+  { name: 'EsCenter', ability: 70, playerType: 'Center' },
+  { name: 'EsRight', ability: 70, playerType: 'Right' },
+  { name: 'EsDH', ability: 70, playerType: 'DH' },
+  { name: 'EsPitcher1', ability: 74, playerType: 'Pitcher' },
+  { name: 'EsPitcher2', ability: 72, playerType: 'Pitcher' },
+  { name: 'EsPitcher3', ability: 70, playerType: 'Pitcher' },
+  { name: 'EsPitcher4', ability: 68, playerType: 'Pitcher' },
+  { name: 'EsPitcher5', ability: 66, playerType: 'Pitcher' },
+]
+
+export const sampleOs: Player[] = [
+  { name: 'OsCatcher', ability: 70, playerType: 'Catcher' },
+  { name: 'OsFirst', ability: 70, playerType: 'First' },
+  { name: 'OsSecond', ability: 70, playerType: 'Second' },
+  { name: 'OsThird', ability: 70, playerType: 'Third' },
+  { name: 'OsShort', ability: 70, playerType: 'Short' },
+  { name: 'OsLeft', ability: 70, playerType: 'Left' },
+  { name: 'OsCenter', ability: 70, playerType: 'Center' },
+  { name: 'OsRight', ability: 70, playerType: 'Right' },
+  { name: 'OsDH', ability: 70, playerType: 'DH' },
+  { name: 'OsPitcher1', ability: 74, playerType: 'Pitcher' },
+  { name: 'OsPitcher2', ability: 72, playerType: 'Pitcher' },
+  { name: 'OsPitcher3', ability: 70, playerType: 'Pitcher' },
+  { name: 'OsPitcher4', ability: 68, playerType: 'Pitcher' },
+  { name: 'OsPitcher5', ability: 66, playerType: 'Pitcher' },
+]
+
+export const sampleLs: Player[] = [
+  { name: 'LsCatcher', ability: 70, playerType: 'Catcher' },
+  { name: 'LsFirst', ability: 70, playerType: 'First' },
+  { name: 'LsSecond', ability: 70, playerType: 'Second' },
+  { name: 'LsThird', ability: 70, playerType: 'Third' },
+  { name: 'LsShort', ability: 70, playerType: 'Short' },
+  { name: 'LsLeft', ability: 70, playerType: 'Left' },
+  { name: 'LsCenter', ability: 70, playerType: 'Center' },
+  { name: 'LsRight', ability: 70, playerType: 'Right' },
+  { name: 'LsDH', ability: 70, playerType: 'DH' },
+  { name: 'LsPitcher1', ability: 74, playerType: 'Pitcher' },
+  { name: 'LsPitcher2', ability: 72, playerType: 'Pitcher' },
+  { name: 'LsPitcher3', ability: 70, playerType: 'Pitcher' },
+  { name: 'LsPitcher4', ability: 68, playerType: 'Pitcher' },
+  { name: 'LsPitcher5', ability: 66, playerType: 'Pitcher' },
+]
+
+export const sampleMs: Player[] = [
+  { name: 'MsCatcher', ability: 70, playerType: 'Catcher' },
+  { name: 'MsFirst', ability: 70, playerType: 'First' },
+  { name: 'MsSecond', ability: 70, playerType: 'Second' },
+  { name: 'MsThird', ability: 70, playerType: 'Third' },
+  { name: 'MsShort', ability: 70, playerType: 'Short' },
+  { name: 'MsLeft', ability: 70, playerType: 'Left' },
+  { name: 'MsCenter', ability: 70, playerType: 'Center' },
+  { name: 'MsRight', ability: 70, playerType: 'Right' },
+  { name: 'MsDH', ability: 70, playerType: 'DH' },
+  { name: 'MsPitcher1', ability: 74, playerType: 'Pitcher' },
+  { name: 'MsPitcher2', ability: 72, playerType: 'Pitcher' },
+  { name: 'MsPitcher3', ability: 70, playerType: 'Pitcher' },
+  { name: 'MsPitcher4', ability: 68, playerType: 'Pitcher' },
+  { name: 'MsPitcher5', ability: 66, playerType: 'Pitcher' },
+]
+
 /*
+  | 'Gs'
+  | 'Ts'
+  | 'Ds'
+  | 'Ss'
+  | 'Bs'
+  | 'Cs'
+  | 'Fs'
+  | 'Hs'
+  | 'Es'
+  | 'Os'
+  | 'Ls'
+  | 'Ms'
 
-
-
-
-
-
+export const samples: Player[] = [
+  { name: 'sCatcher', ability: 70, playerType: 'Catcher' },
+  { name: 'sFirst', ability: 70, playerType: 'First' },
+  { name: 'sSecond', ability: 70, playerType: 'Second' },
+  { name: 'sThird', ability: 70, playerType: 'Third' },
+  { name: 'sShort', ability: 70, playerType: 'Short' },
+  { name: 'sLeft', ability: 70, playerType: 'Left' },
+  { name: 'sCenter', ability: 70, playerType: 'Center' },
+  { name: 'sRight', ability: 70, playerType: 'Right' },
+  { name: 'sDH', ability: 70, playerType: 'DH' },
+  { name: 'sPitcher1', ability: 74, playerType: 'Pitcher' },
+  { name: 'sPitcher2', ability: 72, playerType: 'Pitcher' },
+  { name: 'sPitcher3', ability: 70, playerType: 'Pitcher' },
+  { name: 'sPitcher4', ability: 68, playerType: 'Pitcher' },
+  { name: 'sPitcher5', ability: 66, playerType: 'Pitcher' },
+]
+*/
 
 /*
 export const samplePlayers: Player[] =[{ name: 'GsCatcher',

@@ -41,7 +41,9 @@ export type PlayerType =
   | 'Right'
   | 'DH'
 
+/*
 export type AbilityResult = {
   teamName: BaseballTeam
   result: number
 }
+*/
