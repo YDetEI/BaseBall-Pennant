@@ -9,7 +9,7 @@ export class Game {
     this.baseBallTeam1 = baseBallTeam1
     this.baseBallTeam2 = baseBallTeam2
     console.log(
-      this.baseBallTeam1.name + ' vs ' + this.baseBallTeam2.name + 'するよ'
+      this.baseBallTeam1.name + ' vs ' + this.baseBallTeam2.name + ' PlayBall!'
     )
   }
 
@@ -20,13 +20,32 @@ export class Game {
     const isTeam1Wins = baseBallTeam1Result > baseBallTeam2Result
     const isDraw = baseBallTeam1Result === baseBallTeam2Result
 
+    const win1 = this.baseBallTeam1.winningPoints + 1
+    const win2 = this.baseBallTeam2.winningPoints + 1
+    const lose1 = this.baseBallTeam1.losingPoints + 1
+    const lose2 = this.baseBallTeam2.losingPoints + 1
+    const draw1 = this.baseBallTeam1.drawingPoints + 1
+    const draw2 = this.baseBallTeam2.drawingPoints + 1
+
     if (isDraw) {
-      console.log('draw')
+      draw1
+      draw2
+
+      console.log('draw!')
     } else if (!isDraw && !isTeam1Wins) {
-      console.log('team 2 wins')
+      win2
+      lose1
+
+      console.log(this.baseBallTeam2.name + ' wins!')
     } else {
-      console.log('team 1 wins')
+      win1
+      lose2
+
+      console.log(this.baseBallTeam1.name + ' wins!')
     }
+    console.log(this.baseBallTeam1.winningPoints)
+    console.log(this.baseBallTeam1.losingPoints)
+    console.log(this.baseBallTeam1.drawingPoints)
   }
 
   private calculateAbility(BaseBallTeam: BaseBallTeam): number {
@@ -49,7 +68,7 @@ export class Game {
     const randomNumber = (Math.floor(Math.random() * 20) + 90) / 100
     const multipleRandom = sumPlayerAbility * randomNumber
 
-    console.log(multipleRandom)
+    //console.log(multipleRandom)
     return multipleRandom
   }
 }
