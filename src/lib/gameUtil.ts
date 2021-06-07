@@ -20,33 +20,34 @@ export class Game {
     const isTeam1Wins = baseBallTeam1Result > baseBallTeam2Result
     const isDraw = baseBallTeam1Result === baseBallTeam2Result
 
-    const win1 = this.baseBallTeam1.winningPoints + 1
-    const win2 = this.baseBallTeam2.winningPoints + 1
-    const lose1 = this.baseBallTeam1.losingPoints + 1
-    const lose2 = this.baseBallTeam2.losingPoints + 1
-    const draw1 = this.baseBallTeam1.drawingPoints + 1
-    const draw2 = this.baseBallTeam2.drawingPoints + 1
-
     if (isDraw) {
-      draw1
-      draw2
-
       console.log('draw!')
+      this.baseBallTeam1.drawingPoints += 1
+      this.baseBallTeam2.drawingPoints += 1
     } else if (!isDraw && !isTeam1Wins) {
-      win2
-      lose1
+      this.baseBallTeam1.losingPoints += 1
+      this.baseBallTeam2.winningPoints += 1
 
       console.log(this.baseBallTeam2.name + ' wins!')
     } else {
-      win1
-      lose2
-
       console.log(this.baseBallTeam1.name + ' wins!')
+      this.baseBallTeam2.losingPoints += 1
+      //const win1 = this.baseBallTeam1.winningPoints + 1
+      this.baseBallTeam1.winningPoints += 1
     }
     console.log(this.baseBallTeam1.winningPoints)
     console.log(this.baseBallTeam1.losingPoints)
     console.log(this.baseBallTeam1.drawingPoints)
   }
+
+  // private setPoint(): number {
+  //   const win1 = this.baseBallTeam1.winningPoints + 1
+  //   const win2 = this.baseBallTeam2.winningPoints + 1
+  //   const lose1 = this.baseBallTeam1.losingPoints + 1
+  //   const lose2 = this.baseBallTeam2.losingPoints + 1
+  //   const draw1 = this.baseBallTeam1.drawingPoints + 1
+  //   const draw2 = this.baseBallTeam2.drawingPoints + 1
+  // }
 
   private calculateAbility(BaseBallTeam: BaseBallTeam): number {
     const fielderAbility = BaseBallTeam.playerList

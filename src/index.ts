@@ -33,6 +33,8 @@ const Ms = new BaseBallTeam('Ms', sampleMs)
 const GsVsTs = new Game(Gs, Ts).judge()
 const GsVsDs = new Game(Gs, Ds).judge()
 
+const roundRobin = new roundRobin()
+
 /*
 const GsResult: AbilityResult = { teamName: 'Gs', result: 438 }
 console.log(GsResult.result)
