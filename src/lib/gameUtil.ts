@@ -13,6 +13,10 @@ export class Game {
     )
   }
 
+  public roundRobin() {
+    const allGame = BaseBallTeam.filter
+  }
+
   public judge() {
     const baseBallTeam1Result = this.calculateAbility(this.baseBallTeam1)
     const baseBallTeam2Result = this.calculateAbility(this.baseBallTeam2)
