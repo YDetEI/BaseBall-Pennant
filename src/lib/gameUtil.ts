@@ -1,6 +1,21 @@
 import { BaseBallTeam } from '../models/BaseBallTeam.model'
 import { Player } from '../models/Player.model'
 
+const allBaseBallTeam = [
+  'Gs',
+  'Ts',
+  'Ds',
+  'Ss',
+  'Bs',
+  'Cs',
+  'Fs',
+  'Hs',
+  'Es',
+  'Os',
+  'Ls',
+  'Ms',
+]
+
 export class Game {
   public baseBallTeam1: BaseBallTeam
   public baseBallTeam2: BaseBallTeam
@@ -11,10 +26,6 @@ export class Game {
     console.log(
       this.baseBallTeam1.name + ' vs ' + this.baseBallTeam2.name + ' PlayBall!'
     )
-  }
-
-  public roundRobin() {
-    const allGame = BaseBallTeam.filter
   }
 
   public judge() {
