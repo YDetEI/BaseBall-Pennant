@@ -16,6 +16,11 @@ const allBaseBallTeam = [
   'Ms',
 ]
 
+allGame(){
+  const game
+}
+
+
 export class Game {
   public baseBallTeam1: BaseBallTeam
   public baseBallTeam2: BaseBallTeam
