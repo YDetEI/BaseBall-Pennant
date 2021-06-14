@@ -17,7 +17,7 @@ const allBaseBallTeam = [
 ]
 
 allGame(){
-  const w
+  const wa
 }
 
 
