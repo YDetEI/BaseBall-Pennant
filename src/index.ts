@@ -1,3 +1,4 @@
+import { join } from 'node:path'
 import { Game } from './lib/gameUtil'
 import { BaseBallTeam } from './models/BaseBallTeam.model'
 import { Player } from './models/Player.model'
@@ -32,6 +33,16 @@ const Ms = new BaseBallTeam('Ms', sampleMs)
 
 const GsVsTs = new Game(Gs, Ts).judge()
 const GsVsDs = new Game(Gs, Ds).judge()
+
+/*
+①全チームの配列を作る
+②2チームずつ全ての組み合わせで戦わせる
+（①の配列から2チーム抽出し戦わせ、過去に戦ったことのある組み合わせの場合戦わず次の抽出へ）
+
+⓷１−１２位まで順位をつける
+（ウイニングポイントが多い順に並べ替え、同順位が出たらルージングポイントが少ない順、それでも同じならランダム）
+④完成
+*/
 
 /*
 const GsResult: AbilityResult = { teamName: 'Gs', result: 438 }
