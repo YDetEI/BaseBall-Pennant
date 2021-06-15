@@ -16,8 +16,8 @@ const allBaseBallTeam = [
   'Ms',
 ]
 
-allGame(){
-  const wa
+roundrobin(){
+
 }
 
 
