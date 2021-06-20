@@ -1,25 +1,6 @@
 import { BaseBallTeam } from '../models/BaseBallTeam.model'
 import { Player } from '../models/Player.model'
-
-const allBaseBallTeam = [
-  'Gs',
-  'Ts',
-  'Ds',
-  'Ss',
-  'Bs',
-  'Cs',
-  'Fs',
-  'Hs',
-  'Es',
-  'Os',
-  'Ls',
-  'Ms',
-]
-
-roundrobin(){
-
-}
-
+import { BASEBALL_TEAMS1, BASEBALL_TEAMS2 } from '../type'
 
 export class Game {
   public baseBallTeam1: BaseBallTeam
@@ -31,6 +12,16 @@ export class Game {
     console.log(
       this.baseBallTeam1.name + ' vs ' + this.baseBallTeam2.name + ' PlayBall!'
     )
+  }
+
+  allJudge() {
+    const roundRobin = this.judge
+    for (const t1 of BASEBALL_TEAMS1) {
+      BASEBALL_TEAMS2.shift()
+      for (const t2 of BASEBALL_TEAMS2) {
+        console.log(t1 + ' vs ' + t2)
+      }
+    }
   }
 
   public judge() {
@@ -69,7 +60,7 @@ export class Game {
   //   const draw2 = this.baseBallTeam2.drawingPoints + 1
   // }
 
-  private calculateAbility(BaseBallTeam: BaseBallTeam): number {
+  public calculateAbility(BaseBallTeam: BaseBallTeam): number {
     const fielderAbility = BaseBallTeam.playerList
       .filter((player) => player.playerType !== 'Pitcher')
       .map((player) => player.ability)

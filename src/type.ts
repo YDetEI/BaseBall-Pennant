@@ -14,7 +14,22 @@ export type BaseballTeam =
   | 'Ls'
   | 'Ms'
 
-export const BASEBALL_TEAMS: BaseballTeam[] = [
+export const BASEBALL_TEAMS1: BaseballTeam[] = [
+  'Gs',
+  'Ts',
+  'Ds',
+  'Ss',
+  'Bs',
+  'Cs',
+  'Fs',
+  'Hs',
+  'Es',
+  'Os',
+  'Ls',
+  'Ms',
+]
+
+export const BASEBALL_TEAMS2: BaseballTeam[] = [
   'Gs',
   'Ts',
   'Ds',
