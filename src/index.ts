@@ -33,6 +33,71 @@ const Ms = new BaseBallTeam('Ms', sampleMs)
 
 const GsVsTs = new Game(Gs, Ts).judge()
 const GsVsDs = new Game(Gs, Ds).judge()
+const Gs vs Ss = new Game(s, s).judge()
+const Gs vs Bs
+const Gs vs Cs
+const Gs vs Fs
+const Gs vs Hs
+const Gs vs Es
+const Gs vs Os
+const Gs vs Ls
+const Gs vs Ms
+const Ts vs Ds
+const Ts vs Ss
+const Ts vs Bs
+const Ts vs Cs
+const Ts vs Fs
+const Ts vs Hs
+const Ts vs Es
+const Ts vs Os
+const Ts vs Ls
+const Ts vs Ms
+const Ds vs Ss
+const Ds vs Bs
+const Ds vs Cs
+const Ds vs Fs
+const Ds vs Hs
+const Ds vs Es
+const Ds vs Os
+const Ds vs Ls
+const Ds vs Ms
+const Ss vs Bs
+const Ss vs Cs
+const Ss vs Fs
+const Ss vs Hs
+const Ss vs Es
+const Ss vs Os
+const Ss vs Ls
+const Ss vs Ms
+const Bs vs Cs
+const Bs vs Fs
+const Bs vs Hs
+const Bs vs Es
+const Bs vs Os
+const Bs vs Ls
+const Bs vs Ms
+const Cs vs Fs
+const Cs vs Hs
+const Cs vs Es
+const Cs vs Os
+const Cs vs Ls
+const Cs vs Ms
+const Fs vs Hs
+const Fs vs Es
+const Fs vs Os
+const Fs vs Ls
+const Fs vs Ms
+const Hs vs Es
+const Hs vs Os
+const Hs vs Ls
+const Hs vs Ms
+const Es vs Os
+const Es vs Ls
+const Es vs Ms
+const Os vs Ls
+const Os vs Ms
+const Ls vs Ms
+
 
 /*
 ①全チームの配列を作る
