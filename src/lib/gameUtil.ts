@@ -13,12 +13,12 @@ export class Game {
       this.baseBallTeam1.name + ' vs ' + this.baseBallTeam2.name + ' PlayBall!'
     )
 
-    for (const t1 of BASEBALL_TEAMS1) {
-      BASEBALL_TEAMS2.shift()
-      for (const t2 of BASEBALL_TEAMS2) {
-        console.log(t1 + ' vs ' + t2)
-      }
-    }
+    // for (const t1 of BASEBALL_TEAMS1) {
+    //   BASEBALL_TEAMS2.shift()
+    //   for (const t2 of BASEBALL_TEAMS2) {
+    //     console.log(t1 + ' vs ' + t2)
+    //   }
+    // }
   }
 
   // allJudge() {
