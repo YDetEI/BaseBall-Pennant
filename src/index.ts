@@ -33,71 +33,70 @@ const Ms = new BaseBallTeam('Ms', sampleMs)
 
 const GsVsTs = new Game(Gs, Ts).judge()
 const GsVsDs = new Game(Gs, Ds).judge()
-const Gs vs Ss = new Game(s, s).judge()
-const Gs vs Bs
-const Gs vs Cs
-const Gs vs Fs
-const Gs vs Hs
-const Gs vs Es
-const Gs vs Os
-const Gs vs Ls
-const Gs vs Ms
-const Ts vs Ds
-const Ts vs Ss
-const Ts vs Bs
-const Ts vs Cs
-const Ts vs Fs
-const Ts vs Hs
-const Ts vs Es
-const Ts vs Os
-const Ts vs Ls
-const Ts vs Ms
-const Ds vs Ss
-const Ds vs Bs
-const Ds vs Cs
-const Ds vs Fs
-const Ds vs Hs
-const Ds vs Es
-const Ds vs Os
-const Ds vs Ls
-const Ds vs Ms
-const Ss vs Bs
-const Ss vs Cs
-const Ss vs Fs
-const Ss vs Hs
-const Ss vs Es
-const Ss vs Os
-const Ss vs Ls
-const Ss vs Ms
-const Bs vs Cs
-const Bs vs Fs
-const Bs vs Hs
-const Bs vs Es
-const Bs vs Os
-const Bs vs Ls
-const Bs vs Ms
-const Cs vs Fs
-const Cs vs Hs
-const Cs vs Es
-const Cs vs Os
-const Cs vs Ls
-const Cs vs Ms
-const Fs vs Hs
-const Fs vs Es
-const Fs vs Os
-const Fs vs Ls
-const Fs vs Ms
-const Hs vs Es
-const Hs vs Os
-const Hs vs Ls
-const Hs vs Ms
-const Es vs Os
-const Es vs Ls
-const Es vs Ms
-const Os vs Ls
-const Os vs Ms
-const Ls vs Ms
-
+const GsvsSs = new Game(Gs, Ss).judge()
+const GsvsBs = new Game(Gs, Bs).judge()
+const GsvsCs = new Game(Gs, Cs).judge()
+const GsvsFs = new Game(Gs, Fs).judge()
+const GsvsHs = new Game(Gs, Hs).judge()
+const GsvsEs = new Game(Gs, Es).judge()
+const GsvsOs = new Game(Gs, Os).judge()
+const GsvsLs = new Game(Gs, Ls).judge()
+const GsvsMs = new Game(Gs, Ms).judge()
+const TsvsDs = new Game(Ts, Ds).judge()
+const TsvsSs = new Game(Ts, Ss).judge()
+const TsvsBs = new Game(Ts, Bs).judge()
+const TsvsCs = new Game(Ts, Cs).judge()
+const TsvsFs = new Game(Ts, Fs).judge()
+const TsvsHs = new Game(Ts, Hs).judge()
+const TsvsEs = new Game(Ts, Es).judge()
+const TsvsOs = new Game(Ts, Os).judge()
+const TsvsLs = new Game(Ts, Ls).judge()
+const TsvsMs = new Game(Ts, Ms).judge()
+const DsvsSs = new Game(Ds, Ss).judge()
+const DsvsBs = new Game(Ds, Bs).judge()
+const DsvsCs = new Game(Ds, Cs).judge()
+const DsvsFs = new Game(Ds, Fs).judge()
+const DsvsHs = new Game(Ds, Hs).judge()
+const DsvsEs = new Game(Ds, Es).judge()
+const DsvsOs = new Game(Ds, Os).judge()
+const DsvsLs = new Game(Ds, Ls).judge()
+const DsvsMs = new Game(Ds, Ms).judge()
+const SsvsBs = new Game(Ss, Bs).judge()
+const SsvsCs = new Game(Ss, Cs).judge()
+const SsvsFs = new Game(Ss, Fs).judge()
+const SsvsHs = new Game(Ss, Hs).judge()
+const SsvsEs = new Game(Ss, Es).judge()
+const SsvsOs = new Game(Ss, Os).judge()
+const SsvsLs = new Game(Ss, Ls).judge()
+const SsvsMs = new Game(Ss, Ms).judge()
+const BsvsCs = new Game(Bs, Cs).judge()
+const BsvsFs = new Game(Bs, Fs).judge()
+const BsvsHs = new Game(Bs, Hs).judge()
+const BsvsEs = new Game(Bs, Es).judge()
+const BsvsOs = new Game(Bs, Os).judge()
+const BsvsLs = new Game(Bs, Ls).judge()
+const BsvsMs = new Game(Bs, Ms).judge()
+const CsvsFs = new Game(Cs, Fs).judge()
+const CsvsHs = new Game(Cs, Hs).judge()
+const CsvsEs = new Game(Cs, Es).judge()
+const CsvsOs = new Game(Cs, Os).judge()
+const CsvsLs = new Game(Cs, Ls).judge()
+const CsvsMs = new Game(Cs, Ms).judge()
+const FsvsHs = new Game(Fs, Hs).judge()
+const FsvsEs = new Game(Fs, Es).judge()
+const FsvsOs = new Game(Fs, Os).judge()
+const FsvsLs = new Game(Fs, Ls).judge()
+const FsvsMs = new Game(Fs, Ms).judge()
+const HsvsEs = new Game(Hs, Es).judge()
+const HsvsOs = new Game(Hs, Os).judge()
+const HsvsLs = new Game(Hs, Ls).judge()
+const HsvsMs = new Game(Hs, Ms).judge()
+const EsvsOs = new Game(Es, Os).judge()
+const EsvsLs = new Game(Es, Ls).judge()
+const EsvsMs = new Game(Es, Ms).judge()
+const OsvsLs = new Game(Os, Ls).judge()
+const OsvsMs = new Game(Os, Ms).judge()
+const LsvsMs = new Game(Ls, Ms).judge()
 
 /*
 ①全チームの配列を作る
