@@ -21,16 +21,6 @@ export class Game {
     // }
   }
 
-  // allJudge() {
-  //   const roundRobin = this.judge
-  //   for (const t1 of BASEBALL_TEAMS1)
-  //    {BASEBALL_TEAMS2.shift();
-  //     for (const t2 of BASEBALL_TEAMS2) {
-  //       console.log(t1 + ' vs ' + t2)
-  //     }
-  //   }
-  // }
-
   public judge() {
     const baseBallTeam1Result = this.calculateAbility(this.baseBallTeam1)
     const baseBallTeam2Result = this.calculateAbility(this.baseBallTeam2)
@@ -89,5 +79,11 @@ export class Game {
 
     //console.log(multipleRandom)
     return multipleRandom
+  }
+}
+
+class Season {
+  ranking() {
+    const allWinningPoints = BaseBallTeam.winningPoints
   }
 }
