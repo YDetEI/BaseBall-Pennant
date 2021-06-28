@@ -85,5 +85,6 @@ export class Game {
 class Season {
   ranking() {
     const allWinningPoints = BaseBallTeam.winningPoints
+    const
   }
 }
