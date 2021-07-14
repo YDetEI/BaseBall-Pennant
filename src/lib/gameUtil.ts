@@ -86,6 +86,6 @@ class Season {
   ranking() {
     const allWinningPoints = BaseBallTeam.winningPoints
     const allLosingpoints
-    const tsStudy1
+    const tsStudy3
   }
 }
